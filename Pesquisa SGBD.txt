@@ -1,0 +1,13 @@
+Fazer pesquisa sobre SGBD's
+
+1) Quais são os principais SGBD's, tanto os relacionais quanto os não relacionais.
+
+2) Quais as principais caracteristicas dos SGBD's, relacionais e os não relacionais.
+
+3) O que devo levar em consideração no momento da escolha de um banco relacional e não relacional. Como a empresa escolhe um ou outro, ou usar os dois.
+
+4) Quais as vantagens de usar um banco não relacional ou não relacional? Justifique para cada um deles..
+
+5) Quanto custa ter um banco de dados numa empresa, dê exemplos de valores, seja não relacional ou não relacional. Pesquise especificamente por marcas, tipo quanto custa o Mongo, SQLServer, etc. 
+
+6) Dê exemplos de empresas que usem os SGBD's que vocês encontraram.
