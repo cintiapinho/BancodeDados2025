@@ -1,0 +1,26 @@
+/* logicoempresa: */
+
+CREATE TABLE funcionario (
+    cargo varchar(255),
+    datanasci date,
+    nome varchar(255),
+    datademissao date,
+    salario decimal(4,2),
+    dataadmissao date,
+    cargahoraria decimal(4,2),
+    rg varchar(255),
+    cpf varchar(255),
+    email varchar(255),
+    id_func int PRIMARY KEY,
+    fk_departamento_id_departamento int
+);
+
+CREATE TABLE departamento (
+    id_departamento int PRIMARY KEY,
+    nome varchar(255)
+);
+ 
+ALTER TABLE funcionario ADD CONSTRAINT FK_funcionario_2
+    FOREIGN KEY (fk_departamento_id_departamento)
+    REFERENCES departamento (id_departamento)
+    ON DELETE RESTRICT;
