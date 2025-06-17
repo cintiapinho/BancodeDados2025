@@ -1,3 +1,5 @@
+# Introdução a Banco de Dados
+### https://github.com/cintiapinho/BancodeDados2025/blob/main/material/aula1/Aula%201%20BD.pdf
 # Aula Modelagem de Banco de Dados
 ### https://gamma.app/docs/Relacionamentos-em-Banco-de-Dados-MER-e-DER-dl65ve2zizfmbh5
 # Aula de Tipos de Atributos e Tipos de dados no Mysql
