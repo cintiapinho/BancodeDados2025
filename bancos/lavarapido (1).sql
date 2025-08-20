@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 04/08/2025 às 15:01
+-- Tempo de geração: 20/08/2025 às 17:45
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -115,24 +115,25 @@ CREATE TABLE `cliente` (
   `datanascimento` date NOT NULL,
   `telefone` varchar(20) NOT NULL,
   `email` varchar(100) NOT NULL,
-  `codendereco` int(11) NOT NULL
+  `codendereco` int(11) NOT NULL,
+  `datacadastro` date DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Despejando dados para a tabela `cliente`
 --
 
-INSERT INTO `cliente` (`codcliente`, `nome`, `datanascimento`, `telefone`, `email`, `codendereco`) VALUES
-(1, 'Ana Paula', '1988-04-15', '11999990000', 'ana@gmail.com', 1),
-(2, 'João Silva', '1990-01-22', '11988887777', 'joao@gmail.com', 2),
-(3, 'Carlos Souza', '1985-06-10', '11912345678', 'carlos@gmail.com', 3),
-(4, 'Fernanda Lima', '2000-08-30', '11955556666', 'fernanda@gmail.com', 4),
-(5, 'Pedro Alves', '1975-11-09', '11944443333', 'pedro@gmail.com', 5),
-(6, 'Marina Duarte', '1995-07-25', '11922221111', 'marina@gmail.com', 1),
-(7, 'Lucas Rocha', '1998-03-17', '11933334444', 'lucas@gmail.com', 2),
-(8, 'Bruno Ferreira', '1992-09-12', '11987654321', 'bruno@gmail.com', 6),
-(9, 'Larissa Martins', '1987-02-28', '11911223344', 'larissa@gmail.com', 7),
-(10, 'Diego Oliveira', '1993-12-05', '11922334455', 'diego@gmail.com', 8);
+INSERT INTO `cliente` (`codcliente`, `nome`, `datanascimento`, `telefone`, `email`, `codendereco`, `datacadastro`) VALUES
+(1, 'Ana Paula', '1988-04-15', '11999990000', 'ana@gmail.com', 1, '2025-07-10'),
+(2, 'João Silva', '1990-01-22', '11988887777', 'joao@gmail.com', 2, '2025-07-10'),
+(3, 'Carlos Souza', '1985-06-10', '11912345678', 'carlos@gmail.com', 3, '2025-07-11'),
+(4, 'Fernanda Lima', '2000-08-30', '11955556666', 'fernanda@gmail.com', 4, '2025-07-12'),
+(5, 'Pedro Alves', '1975-11-09', '11944443333', 'pedro@gmail.com', 5, '2025-07-12'),
+(6, 'Marina Duarte', '1995-07-25', '11922221111', 'marina@gmail.com', 1, '2025-07-14'),
+(7, 'Lucas Rocha', '1998-03-17', '11933334444', 'lucas@gmail.com', 2, '2025-08-15'),
+(8, 'Bruno Ferreira', '1992-09-12', '11987654321', 'bruno@gmail.com', 6, '2025-08-16'),
+(9, 'Larissa Martins', '1987-02-28', '11911223344', 'larissa@gmail.com', 7, '2025-08-17'),
+(10, 'Diego Oliveira', '1993-12-05', '11922334455', 'diego@gmail.com', 8, '2025-08-18');
 
 -- --------------------------------------------------------
 
